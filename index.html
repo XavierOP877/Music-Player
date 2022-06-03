@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;500;600;700&family=Raleway:wght@200;300;500;600;700;800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="app-page-one">
+            <div class="playing-div">
+                <div class="iconLeft">
+                    <span class="material-symbols-sharp">
+                        widgets
+                    </span>
+                </div>
+                <h3>Now Playing</h3>
+                <div class="iconRight">
+                    <span class="material-symbols-sharp">
+                        queue_music
+                    </span>
+                </div>
+            </div>
+
+            <div class="song-coverBx">
+                <div class="imgBx">
+                    <img src="" class="main-showcase-img" alt="">
+                </div>
+            </div>
+
+            <div class="song-details">
+                <p class="song-tag">#Top Rated</p>
+                <h3 class="song-name"></h3>
+                <p class="song-artist"></p>
+            </div>
+
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <!-- <div class="circle-dot-tip"></div> -->
+                </div>
+                <div class="timerBx">
+                    <span class="timestamp curr-time">0:10</span>
+                    <span class="timestamp duration-time">3:39</span>
+                </div>
+                <audio id="main-audio" src=""></audio>
+            </div>
+
+            <div class="play-controls">
+                <div class="shuffle-IconBx">
+                    <span class="material-symbols-outlined play-icon" id="shuffle-btn">
+                        shuffle
+                    </span>
+                </div>
+                <div class="prev-IconBx">
+                    <span class="material-symbols-outlined play-icon big" id="prev-btn">
+                        skip_previous
+                    </span>
+                </div>
+                <div class="pause-IconBx">
+                    <span class="material-symbols-outlined play-icon playBtn">
+                        play_arrow
+                    </span>
+                </div>
+                <div class="next-IconBx">
+                    <span class="material-symbols-outlined play-icon big" id="next-btn">
+                        skip_next
+                    </span>
+                </div>
+                <div class="loop-IconBx">
+                    <span class="material-symbols-outlined play-icon" id="repeat-btn">
+                        repeat
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- // Lyrics page -->
+        <div class="lyrics-page">
+            <div class="cover-wrap">
+                <div class="song-details">
+                    <h3 class="song-name" id="lyrics-song-name">Yeh dil hai Mushkil</h3>
+                    <p class="song-artist" id="lyrics-artist-name">Arjit Singh</p>
+                </div>
+                <div class="circle-point"></div>
+            </div>
+
+            <div class="lyricsBx">
+                <div class="lyrics">
+                    <p id="lyrics-text"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="favorite-page">
+            <div class="playing-div">
+                <div class="iconLeft backspaceBtn">
+                    <span class="material-symbols-outlined">
+                        keyboard_backspace
+                    </span>
+                </div>
+                <h3>Songs List</h3>
+                <div class="iconRight">
+                    <span class="material-symbols-outlined">
+                        tune
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="song-list">
+                <div class="songListBx">
+                    <div class="songs">
+                    <!-- songs are added dynamically using javascript -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./music.js"></script>
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
