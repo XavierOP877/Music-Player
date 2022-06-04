@@ -66,5 +66,69 @@ let musicListArr =[{
         Aidda Ni Chalde Pyaar
         Sohniye
         Aidda Ni Chalde Pyaar`
+},
+{
+        name :"Excuses",
+        artist : "AP Dhillon",
+        img : "bg2.jpg",
+        src : "Excuses",
+        lyrics : `Mere Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        Dil Naal Laare Ni Tu Laun Waaliye
+        Dil Tera Jadon Tuttuga Taan
+        
+        Tutte Dil Nu Saambhi Firde
+        Ki Fayda Muttiyare Ni
+        12 Saal Majhiyan Charaiyan
+        Chadde Takht Hazare Ni
+        Har Saanh Naal Yaad Tainu Karde Rahe
+        Koyi Sadde Wang Karuga Taan Pata Lagguga
+        
+        Dil Naal Laare Ni Tan Laon Waliye
+        Dil Tera Jado Tuttuga Taan
+        Mere Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jado Tuttuga Taan
+        
+        Kehndi Hundi Si Chann Tak Raah Bana De
+        Taare Ne Pasand Mainu Hethan Saare Laade
+        Ohna Taareyan De Vich Jadon Mainu Vekhengi
+        Meri Yaad Jad Aaugi Tan Pata Lagguga
+        
+        Dil Naal Laare Ni Tu Laun Waaliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        
+        Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jadon Tuttuga Taan
+        
+        Raas Na Aaya Tainu Ni
+        Jo Dil Da Mahal Banaya Si
+        Tod Ke Motti Phullan De
+        Uss Mahal Ch Boota Laaya Si
+        Ni Jiven Saanu Chadd Gayi Aan Ni Tu Alhade
+        Jado Tainu Koi Chaduga Taan
+        Oh Jiven Saanu Chadd Gayi Aan Ni Tu Alhade
+        Jado Tainu Koi Chaduga Taan Pata Lagguga
+        
+        Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        Dil Naal Laare Ni Tu Laun Waliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        
+        Ishqe De Raahan Vich Rul Ke Re Gaye Haan
+        Lokan Dite Taane Mene Has Ke Seh Gaye Haan
+        Ishqe De Raahan Vich Rul Ke Re Gaye Haan
+        Lokan Dite Taane Mene Has Ke Seh Gaye Haan
+        
+        Sadde Pyaar Nu Tu Pairan Thalle Roldi Rahi
+        Jazbaat Jado Rule Ohdon Pata Lagguga
+        
+        Dil Naal Laare Ni Tu Laun Waaliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga
+        Dil Naal Laare Ni Tu Laun Waaliye
+        Dil Tera Jadon Tuttuga Taan Pata Lagguga`
 }
 ]
